@@ -1,0 +1,4 @@
+// EXAMPLE
+$(() => {
+    console.log($('.title'))
+})

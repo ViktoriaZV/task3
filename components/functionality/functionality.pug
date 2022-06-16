@@ -1,0 +1,7 @@
+mixin application({title, list, listItem, imgSrc})
+    +b.application-inner
+        +e.H3.title= title
+        +e.P.text= text
+            +e.img-wrapper
+        +e.img(src=imgSrc)= imgSrc
+
